@@ -1,4 +1,4 @@
-# 🌍 Global Solution 2026.1 — Monitoramento de Risco Ambiental com IA
+#  Global Solution 2026.1 — Monitoramento de Risco Ambiental com IA
 
 **FIAP · 2TIAP · 1º Semestre de 2026**  
 **Disciplina:** Governança em IA e Business Analytics
@@ -7,7 +7,7 @@
 
 ---
 
-## 👥 Integrantes
+##  Integrantes
 
 | Nome | RM |
 |---|---|
@@ -16,13 +16,13 @@
 
 ---
 
-## 🎥 Vídeo de Apresentação
+##  Vídeo de Apresentação
 
 [![YouTube](https://img.shields.io/badge/YouTube-Assistir-red?logo=youtube)](https://www.youtube.com/watch?v=Kv1LY0qPxwY)
 
 ---
 
-## 📌 Sobre o Projeto
+##  Sobre o Projeto
 
 Este repositório reúne todos os módulos desenvolvidos ao longo do semestre para o **Global Solution 2026.1**. A solução gira em torno de um problema comum: **monitoramento de risco ambiental com dados satelitais e sensores locais**, conectando diferentes tecnologias de IA em uma pipeline integrada.
 
@@ -30,7 +30,7 @@ O fluxo parte da coleta de dados brutos (sensores de borda e IoT), passa pela cl
 
 ---
 
-## 🗂️ Estrutura do Repositório
+##  Estrutura do Repositório
 
 ```
 GS2026_GlobalSolution/
@@ -49,65 +49,65 @@ GS2026_GlobalSolution/
 
 ---
 
-## 🧩 Módulos
+##  Módulos
 
-### 🔬 Visão Computacional
+###  Visão Computacional
 **Disciplina:** Visão Computacional  
 Modelo de classificação de imagens de satélite para identificar áreas com risco de incêndio florestal. Utiliza o Wildfire Prediction Dataset (Kaggle) com ~42 mil imagens nas classes *Wildfire* e *No Wildfire*.  
-`📁 visao-computacional/` · **ODS 13**
+` visao-computacional/` · **ODS 13**
 
 ---
 
-### ⚛️ Computação Quântica e IA
+###  Computação Quântica e IA
 **Disciplina:** Computação Quântica e IA  
 Implementação de Quantum Machine Learning (QML) com Qiskit 1.x (QSVC ou VQC) comparado a baselines clássicos (SVM, Random Forest) usando AUC-ROC, F1-score e tempo de treino.  
-`📁 computacao-quantica/` · **ODS 9**
+` computacao-quantica/` · **ODS 9**
 
 ---
 
-### 🧠 Computação Neuromórfica
+###  Computação Neuromórfica
 **Disciplina:** Computação Neuromórfica  
 Protótipo de sensor neuromórfico de baixo consumo com memória memristiva virtual e limiar de disparo, para detecção de condições críticas (temperatura, radiação, poeira) na camada de borda.  
-`📁 computacao-neuroморfica/` · **ODS 9**
+` computacao-neuroморfica/` · **ODS 9**
 
 ---
 
-### 📡 IoT — Physical Computing e Cognitive IoT
+###  IoT — Physical Computing e Cognitive IoT
 **Disciplina:** Physical Computing, Embedded AI, Robotics e Cognitive IoT  
 Solução IoT com ESP32, sensores ambientais, protocolo MQTT, dashboard em nuvem e notificações via Telegram.  
-`📁 iot-esp32/` · **ODS 11**
+` iot-esp32/` · **ODS 11**
 
 ---
 
-### 💬 NLP / RAG — Assistente Espacial
+###  NLP / RAG — Assistente Espacial
 **Disciplina:** Inteligência Artificial Generativa  
 Assistente inteligente com arquitetura RAG para responder perguntas sobre relatórios da NASA, ESA e dados de monitoramento ambiental, com geração de embeddings e vector store.  
-`📁 nlp-rag-espacial/` · **ODS 13**
+` nlp-rag-espacial/` · **ODS 13**
 
 ---
 
-### 🏢 IA Generativa — RAG Edifícios Verdes
+###  IA Generativa — RAG Edifícios Verdes
 **Disciplina:** NLP e Modelos de Linguagem  
 Assistente técnico especializado em edifícios verdes e Net Zero (eficiência energética, reúso de água, LEED, AQUA-HQE) com LLM local e banco vetorial persistente.  
-`📁 ia-generativa-edificios/` · **ODS 11**
+` ia-generativa-edificios/` · **ODS 11**
 
 ---
 
-### 🤖 AI for RPA
+###  AI for RPA
 **Disciplina:** AI for RPA — Robotic Process Automation  
 Orquestrador da pipeline de dados: coleta dados brutos, aciona os modelos de classificação, consolida resultados e gera outputs estruturados para o dashboard de forma automatizada.  
-`📁 ai-for-rpa/` · **ODS 9**
+` ai-for-rpa/` · **ODS 9**
 
 ---
 
-### 📊 Dashboard — Front-end
+###  Dashboard — Front-end
 **Disciplina:** Front-end e Mobile Development em Sistemas de IA  
 Dashboard interativo em Streamlit com filtros, gráficos Plotly e componente de feedback humano. Interface central que reúne todos os módulos em um único painel.  
-`📁 dashboard/` · **ODS 11**
+` dashboard/` · **ODS 11**
 
 ---
 
-## 🌱 ODS da ONU Atendidos
+##  ODS da ONU Atendidos
 
 | ODS | Módulos |
 |---|---|
@@ -118,6 +118,6 @@ Dashboard interativo em Streamlit com filtros, gráficos Plotly e componente de 
 
 ---
 
-## 📄 Documentação
+##  Documentação
 
 O documento completo de integração dos módulos está disponível em [`docs/GS2026_Integracao.pdf`](docs/GS2026_Integracao.pdf).
